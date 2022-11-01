@@ -18,7 +18,13 @@ class Counter2 {
 }
 
 class MyRunnableImpl2 implements Runnable {
-    public void doWork1() {
+
+    private void doWork2(){
+        System.out.println("Yeah!");
+    }
+
+    private void doWork1() {
+        doWork2();
         synchronized (this) {
             Counter2.count++;
             System.out.println(Counter.count);
