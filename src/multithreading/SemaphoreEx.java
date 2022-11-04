@@ -33,6 +33,9 @@ class Person extends Thread {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        finally {
+            callBox.release();
+        }
 
     }
 }
