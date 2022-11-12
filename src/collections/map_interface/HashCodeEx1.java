@@ -6,7 +6,7 @@ import java.util.Objects;
 
 public class HashCodeEx1 {
     public static void main(String[] args) {
-        Map<Student, Double> map = new HashMap<>();
+        Map<Student, Double> map = new HashMap<>(16,0.7f);
         Student st1 = new Student("Vova", "Gumennyi", 3);
         Student st2 = new Student("Artem", "Petrov", 1);
         Student st3 = new Student("Alex", "Alexeev", 2);
@@ -15,17 +15,17 @@ public class HashCodeEx1 {
         map.put(st3, 9.2);
         System.out.println(map);
 
-        Student st4 = new Student("Vova", "Gumennyi", 3);
-        Student st5 = new Student("Igor", "Sidorov", 4);
-//        boolean result = map.containsKey(st4);
-//        System.out.println("result = " + result);
-        System.out.println(st1.hashCode());
-        System.out.println(st5.hashCode());
-
-        for (Map.Entry<Student,Double> entry:map.entrySet()) {
-            System.out.println(entry.getKey()+ ":" + entry.getValue());
-
-        }
+//        Student st4 = new Student("Vova", "Gumennyi", 3);
+//        Student st5 = new Student("Igor", "Sidorov", 4);
+////        boolean result = map.containsKey(st4);
+////        System.out.println("result = " + result);
+//        System.out.println(st1.hashCode());
+//        System.out.println(st5.hashCode());
+//
+//        for (Map.Entry<Student,Double> entry:map.entrySet()) {
+//            System.out.println(entry.getKey()+ ":" + entry.getValue());
+//        }
+//     Map <Integer,String> map2 = new HashMap<>(16,0.75f);
     }
 }
 

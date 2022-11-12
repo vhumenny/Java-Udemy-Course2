@@ -9,12 +9,12 @@ public class HashMapEx1 {
         map1.put(1000, "Vladimir Gumennyi");
         map1.put(3568, "Ivan Ivanov");
         map1.put(6578, "Alex Alexeev");
-        map1.put(2000, "Zaur Tregulov");
-        map1.putIfAbsent(1000, "Zaur Tregulov");
+        map1.put(1000, "Zaur Tregulov");
+//        map1.putIfAbsent(1000, "Zaur Tregulov");
         System.out.println(map1);
-//        System.out.println(map1.get(1000));
+        System.out.println(map1.get(1000));
         map1.remove(6578);
-//        System.out.println(map1);
+        System.out.println(map1);
 //        System.out.println(map1.containsValue("Zaur Tregulov"));
 //        System.out.println(map1.containsKey(1000));
         System.out.println(map1.keySet());
