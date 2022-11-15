@@ -4,11 +4,11 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 
-public class fileEx {
+public class FileEx {
     public static void main(String[] args) throws IOException {
         File file = new File("test2.txt");
         File folder = new File("C:\\Users\\Admin\\Desktop\\A");
-        File file2 = new File("C:\\Users\\Admin\\Desktop\\A\\test1.txt");
+        File file2 = new File("C:\\Users\\Admin\\Desktop\\A\\Test1.txt");
         File folder2 = new File("C:\\Users\\Admin\\Desktop\\B");
         System.out.println("file.getAbsolutePath() " + file.getAbsolutePath());
         System.out.println("folder.getAbsolutePath() " + folder.getAbsolutePath());

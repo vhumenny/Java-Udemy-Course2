@@ -3,7 +3,7 @@ package work_with_files;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class fileWriterEx {
+public class FileWriterEx {
     public static void main(String[] args) {
         String rubai= "Много лет я размышлял над жизнью земной.\n" +
                 "Непонятного нет у меня под луной.\n" +
