@@ -35,7 +35,7 @@ public class Test3 {
         System.out.println(sum(arrayListInteger));
     }
 
-    static void ShowListInfo(List<?> listl) {
+    static void ShowListInfo(List<?> list) {
         System.out.println("My list contains next elements: " + list);
 
     }
