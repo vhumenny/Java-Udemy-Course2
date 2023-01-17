@@ -19,9 +19,9 @@ public class CopyEx {
             }
             System.out.println("Done!");
         } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 }
